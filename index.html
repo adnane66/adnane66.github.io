@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELOUALI ADNANE | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+</head>
+<body>
+
+    <nav id="navbar">
+        <div class="logo">ELOUALI ADNANE <span>.</span></div>
+        <ul class="nav-links">
+            <li><a href="#about">À propos </a></li>
+            <li><a href="#skills">Compétences</a></li>
+            <li><a href="#education">Parcours</a></li>
+            <li><a href="#projects">Projets & Expériences</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header id="hero">
+        <div class="hero-content">
+            <div class="profile-img-container">
+                <img src="photo.jpg" alt="ELOUALI ADNANE" class="profile-pic">
+            </div>
+            <h1>ELOUALI ADNANE</h1>
+            <h2>Étudiant en Sciences Informatiques (S4)  FSSM</h2>
+            <div class="social-links">
+                <a href="mailto:a.elouali2001@uca.ac.ma"><i class="fas fa-envelope"></i></a>
+                <a href="https://github.com/adnane66" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="container">
+            <h2 class="section-title">À propos de moi</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>Actuellement en deuxième année de licence <strong>SINF</strong> à la Faculté des Sciences Semlalia de Marrakech,
+                         je forge mes compétences en développement et en architecture système.</p>
+                    <p>Je me définis comme un étudiant <strong>dévoué</strong>, capable de maintenir une grande efficacité de <strong>
+                        travail sous pression</strong>. Mon parcours académique m'a permis de toucher à divers langages, 
+                        de l'assembleur au JavaScript, tout en gardant une vision claire sur mon objectif futur.</p>
+                </div>
+                <div class="interest-card">
+                    <i class="fas fa-shield-halved"></i>
+                    <h3>Focus et intérêt  : Cybersécurité</h3>
+                    <p>La protection des données et l'intégrité des systèmes sont pour moi les piliers du web de demain. 
+                    Je consacre une partie de mon temps libre à l'apprentissage des protocoles de sécurité, 
+                     des tests d'intrusion et de la cryptographie pour me spécialiser dans ce domaine après ma licence.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="container bg-light">
+            <h2 class="section-title">Expertise Technique</h2>
+            <div class="skills-grid">
+                <div class="skill">
+                    <div class="skill-info"><span>C / C++</span><span>70%</span></div>
+                    <div class="progress-bar-bg"><div class="progress-bar" data-percent="70%"></div></div>
+                </div>
+                <div class="skill">
+                    <div class="skill-info"><span>HTML / CSS</span><span>65%</span></div>
+                    <div class="progress-bar-bg"><div class="progress-bar" data-percent="65%"></div></div>
+                </div>
+                <div class="skill">
+                    <div class="skill-info"><span>Python</span><span>60%</span></div>
+                    <div class="progress-bar-bg"><div class="progress-bar" data-percent="60%"></div></div>
+                </div>
+                <div class="skill">
+                    <div class="skill-info"><span>JavaScript</span><span>60%</span></div>
+                    <div class="progress-bar-bg"><div class="progress-bar" data-percent="60%"></div></div>
+                </div>
+            </div>
+            
+            <div class="languages-box">
+                <h2>Langues</h2>
+                <div class="lang-tags">
+                    <span class="tag">Arabe(Natif)</span>
+                    <span class="tag">Amazigh (Natif)</span>
+                    <span class="tag">Anglais (B2)</span>
+                    <span class="tag">Français (B1)</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="container">
+            <h2 class="section-title">Parcours Académique</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-header">
+                        <h3>2ème année SINF (S4) <i class="fas fa-chevron-down"></i></h3>
+                        <span>2025 - 2026 | FSSM Marrakech</span>
+                    </div>
+                    <div class="timeline-body"><p>Spécialisation Sciences Informatiques.</p></div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-header">
+                        <h3>1ère année MIP <i class="fas fa-chevron-down"></i></h3>
+                        <span>2024 - 2025 | FSSM Marrakech</span>
+                    </div>
+                    <div class="timeline-body"><p>Tronc commun Mathématiques, Informatique et Physique.</p></div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-header">
+                        <h3>1ère année MIPC <i class="fas fa-chevron-down"></i></h3>
+                        <span>2023 - 2024 | FST-G Marrakech</span>
+                    </div>
+                    <div class="timeline-body"><p>Année universitaire à la Faculté des Sciences et Techniques.</p></div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-header">
+                        <h3>Baccalauréat Sciences Physiques (BIOF) <i class="fas fa-chevron-down"></i></h3>
+                        <span>2022 - 2023 | Lycée Youssef Ibn Tachfin</span>
+                    </div>
+                    <div class="timeline-body">
+                        <p>Mention Bien. Localisation : M'semrir, Tinghir.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="container bg-light">
+            <h2 class="section-title">Expériences & Projets</h2>
+            <div id="react-xp-root"></div>
+            <div id="react-projects-root"></div>
+        </section>
+
+        <section id="contact" class="container">
+            <h2 class="section-title">Me Contacter</h2>
+            <div id="react-contact-root"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 ELOUALI ADNANE - Étudiant FSSM</p>
+    </footer>
+
+    <script src="script-jquery.js"></script>
+    <script type="text/babel">
+      //  Composant : Section Expériences 
+        const ExperienceSection = () => (
+            <div className="experience-placeholder">
+                <div className="xp-item">
+                    <div className="xp-dot"></div>
+                    <div className="xp-content">
+                        <h2>Expériences Professionnelles</h2>
+                        <p> Mon parcours est actuellement focalisé sur l'excellence académique et la réalisation de projets techniques. 
+                            De nouvelles opportunités arriveront très prochainement.</p>
+                        <h2>Projets Académiques :</h2>
+                    </div>
+                </div>
+            </div>
+        );
+        //  Composant : Carte de Projet
+        const ProjectCard = ({ title, idea, module, tags }) => (
+             <div className="card">
+                <p style={{ marginBottom: "10px", fontSize: "1.05rem" }}>
+                    <strong>Nom de projet :</strong> {title}
+                </p>
+                <p style={{ marginBottom: "10px" }}>
+                    <strong>L'idée :</strong> {idea}
+                </p>
+                <p style={{ marginBottom: "10px" }}>
+                    <strong>Module :</strong> {module}
+                </p>
+                <p style={{ marginBottom: "10px" }}>
+                    <strong>Technologies utilisées :</strong> 
+                    {tags.map((tech, index) => (
+                        <span key={index} style={{ 
+                            marginRight: "15px", /* Crée l'espace entre chaque technologie */
+                            color: "var(--primary)", 
+                            fontWeight: "600" 
+                        }}>
+                            {tech}
+                        </span>
+                    ))}
+                </p> <div></div>
+            </div>
+            
+        );
+
+        //  Composant : Liste des Projets
+        const ProjectList = () => {
+            const data = [
+                {
+                    id: 1,
+                    title: "Jeu Rock-Paper-Scissors",
+                    idea: "Création d'un jeu interactif jouable dans le navigateur avec gestion des scores et logique conditionnelle.",
+                    module: "Programmation Web 1 (S3)",
+                    tags: ["HTML", "CSS", "JavaScript"]
+                },
+                {
+                    id: 2,
+                    title: "Projet Assembleur Bas Niveau",
+                    idea: "Implémentation de fonctions pour comprendre le fonctionnement du processeur, la gestion des registres et de la mémoire.",
+                    module: "Architecture des ordinateurs (S3)",
+                    tags: ["Assembleur", "Architecture x86"]
+                }
+            ];
+
+            return (
+                <div className="grid-projects">
+                    {data.map(p => (
+                        <ProjectCard 
+                            key={p.id} 
+                            title={p.title} 
+                            idea={p.idea} 
+                            module={p.module} 
+                            tags={p.tags} 
+                        />
+                    ))}
+                </div>
+            );
+        };
+
+        //  Composant : Formulaire de contact
+        const ContactForm = () => (
+            <form id="contact-form" className="form-ui">
+                <input type="text" id="name" placeholder="Nom" required />
+                <input type="email" id="email" placeholder="Email" required />
+                <textarea id="message" placeholder="Votre message" rows="4" required></textarea>
+                <button type="submit" className="btn-submit">Envoyer <i className="fas fa-paper-plane"></i></button>
+            </form>
+        );
+
+        // Rendu 
+        // j'assure que le DOM est bien chargé avant d'injecter React
+        window.onload = () => {
+            const xpRoot = document.getElementById('react-xp-root');
+            if (xpRoot) ReactDOM.createRoot(xpRoot).render(<ExperienceSection />);
+            
+            const projectsRoot = document.getElementById('react-projects-root');
+            if (projectsRoot) ReactDOM.createRoot(projectsRoot).render(<ProjectList />);
+            
+            const contactRoot = document.getElementById('react-contact-root');
+            if (contactRoot) ReactDOM.createRoot(contactRoot).render(<ContactForm />);
+        };
+    </script>
+</body>
+</html>
